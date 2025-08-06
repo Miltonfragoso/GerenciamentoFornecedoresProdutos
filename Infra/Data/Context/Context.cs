@@ -15,7 +15,10 @@ namespace Infra.Data.Context
     public class Context : DbContext
     {
         public Context() : base("DefaultConnection")
-        { }
+        { 
+            Configuration.ProxyCreationEnabled = false; //Desabilita a criação de proxies dinâmicos para as entidades
+            Configuration.LazyLoadingEnabled = false; //Desabilita o carregamento preguiçoso (Lazy Loading) das entidades
+        }
 
 
         //Mapeando os DbSets
@@ -46,9 +49,18 @@ namespace Infra.Data.Context
 
 
 
+            modelBuilder.Properties<string>()
+                        .Configure(c => c.HasColumnType("varchar") //Define o tipo de coluna como varchar
+                        .HasMaxLength(100)); //Define o tamanho máximo da coluna como 100 caracteres    
+
+
+
             modelBuilder.Configurations.Add(new FornecedorConfig());
             modelBuilder.Configurations.Add(new EnderecoConfig());
             modelBuilder.Configurations.Add(new ProdutoConfig());
+
+
+            base.OnModelCreating(modelBuilder);
 
         }
 
