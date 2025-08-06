@@ -1,0 +1,14 @@
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\Infra.dll.config
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\Infra.dll
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\Infra.pdb
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\Business.dll
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\EntityFramework.dll
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\Business.pdb
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\EntityFramework.xml
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\obj\Debug\Infra.csproj.AssemblyReference.cache
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\obj\Debug\Infra.csproj.CoreCompileInputs.cache
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\obj\Debug\Infra.csproj.Up2Date
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\obj\Debug\Infra.dll
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Infra\obj\Debug\Infra.pdb

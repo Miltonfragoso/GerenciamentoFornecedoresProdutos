@@ -1,0 +1,6 @@
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\bin\Debug\Business.dll
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\bin\Debug\Business.pdb
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.dll
+C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.pdb
