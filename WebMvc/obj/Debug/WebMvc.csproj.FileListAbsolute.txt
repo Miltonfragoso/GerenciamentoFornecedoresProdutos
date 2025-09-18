@@ -111,3 +111,7 @@ C:\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\bin\Infra.dll
 C:\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\bin\Business.pdb
 C:\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\bin\Infra.pdb
 C:\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\bin\Infra.dll.config
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\obj\Debug\WebMvc.csproj.AssemblyReference.cache
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\obj\Debug\WebMvc.csproj.CoreCompileInputs.cache
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\obj\Debug\WebMvc.dll
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\WebMvc\obj\Debug\WebMvc.pdb

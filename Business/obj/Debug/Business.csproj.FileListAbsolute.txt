@@ -4,3 +4,9 @@ C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business
 C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
 C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.dll
 C:\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.pdb
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\bin\Debug\Business.dll
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\bin\Debug\Business.pdb
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.dll
+D:\Projetos no Git\Projetos no Git\GerenciamentoFornecedoresProdutos\Business\obj\Debug\Business.pdb

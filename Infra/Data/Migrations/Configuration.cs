@@ -1,11 +1,11 @@
-﻿using Infra.Data.Context;
+﻿using GerFuncProd.Infra.Data.Context;
 using System.Data.Entity.Migrations;
 
-namespace Infra.Migrations
+namespace GerFuncProd.Infra.Migrations
 {
 
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Context>
+    internal sealed class Configuration : DbMigrationsConfiguration<MeuDbContext>
     {
         public Configuration()
         {

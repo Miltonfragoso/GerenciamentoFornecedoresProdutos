@@ -1,20 +1,16 @@
 ﻿using GerFuncProd.Business.Models.Fornecedores;
 using GerFuncProd.Business.Models.Produtos;
-using Infra.Data.Mappings;
+using GerFuncProd.Infra.Data.Mappings;
 using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Infra.Data.Context
+
+namespace GerFuncProd.Infra.Data.Context
 {
-    public class Context : DbContext
+    public class MeuDbContext : DbContext
     {
-        public Context() : base("DefaultConnection")
+        public MeuDbContext() : base("DefaultConnection")
         { 
             Configuration.ProxyCreationEnabled = false; //Desabilita a criação de proxies dinâmicos para as entidades
             Configuration.LazyLoadingEnabled = false; //Desabilita o carregamento preguiçoso (Lazy Loading) das entidades
@@ -50,7 +46,7 @@ namespace Infra.Data.Context
 
 
             modelBuilder.Properties<string>()
-                        .Configure(c => c.HasColumnType("varchar") //Define o tipo de coluna como varchar
+                        .Configure(p => p.HasColumnType("varchar") //Define o tipo de coluna como varchar
                         .HasMaxLength(100)); //Define o tamanho máximo da coluna como 100 caracteres    
 
 
@@ -64,6 +60,9 @@ namespace Infra.Data.Context
 
         }
 
-
+        internal object AsNoTracking()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

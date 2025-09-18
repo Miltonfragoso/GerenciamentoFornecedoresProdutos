@@ -3,7 +3,7 @@
  * e implementamos métoso específicos de fornecedorneste caso 2 métodos
  */
 
-using Business.Core.Data;
+using GerFuncProd.Business.Core.Data;
 using System;
 using System.Threading.Tasks;
 

@@ -13,11 +13,13 @@ namespace GerFuncProd.Business.Core.Models
 {
     public abstract class Entity
     {
+        //construtor
         protected Entity()
         {
             Id = Guid.NewGuid();
         }
-
+        //proppriedade
         public Guid Id { get; set; }
+
     }
 }

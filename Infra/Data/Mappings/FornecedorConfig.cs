@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infra.Data.Mappings
+namespace GerFuncProd.Infra.Data.Mappings
 {
     //EntityTypeConfiguration é usada no Entity Framework 6 (não no EF Core!) para fazer a configuração das entidades do modelo
     //— mapeando propriedades, chaves, nomes de tabelas, relacionamentos, etc. — de forma fluente (via Fluent API), fora da classe de contexto.

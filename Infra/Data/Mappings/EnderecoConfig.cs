@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infra.Data.Mappings
+namespace GerFuncProd.Infra.Data.Mappings
 {
     public class EnderecoConfig : EntityTypeConfiguration<Endereco>
     {

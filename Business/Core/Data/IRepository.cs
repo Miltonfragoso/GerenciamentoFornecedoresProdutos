@@ -13,18 +13,18 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Business.Core.Data
+namespace GerFuncProd.Business.Core.Data
 {
     public  interface IRepository<TEntity> : IDisposable where TEntity : Entity
     {
         Task Adicionar (TEntity entity);
         Task <TEntity> ObterPorId (Guid id);
-        Task <List<Entity>> ObterTodos ();
+        Task <List<TEntity>> ObterTodos ();
         Task Atualizar (TEntity entity);
         Task Remover (Guid id);
 
         //Este método buscar retorna uma coleção de entidades, porém ele vai receber como parâmetro de busca uma expressão lambda personalizada
-        Task<IEnumerable<Entity>> Buscar (Expression<Func<Entity, bool>> predicate);
+        Task<IEnumerable<TEntity>> Buscar (Expression<Func<TEntity, bool>> predicate);
 
         //Neste método salvar, o int vai simbolizar se o objeto foi salvo ou não, 1 representa que sim e 0 significa que nada foi salvo
         Task<int> SaveChanges();
